@@ -22,7 +22,7 @@ a {
 }
 
 select,
-input[type=search] {
+#input {
     padding: .5rem;
     background: rgba(238, 238, 238, .5);
     border: 1px solid black;
@@ -32,9 +32,8 @@ input[type=search] {
     margin: 0 1rem;
 }
 
-input[type=search] {
+#input {
     cursor: auto;
-    width: 20rem;
 }
 
 .output {
